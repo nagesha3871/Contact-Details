@@ -39,7 +39,7 @@ void viewContacts() {
         return;
     }
 
-    printf("\n===== All Contacts =====\n");
+    printf("***All Contacts ***");
     for (int i = 0; i < count; i++) {
         printf("\nContact %d:\n", i + 1);
         printf("Name: %s\n", contacts[i].name);
@@ -111,7 +111,7 @@ int main() {
     int choice;
 
     do {
-        printf("\n===== Contact Management System =====\n");
+        printf("Contact Management System ");
         printf("1. Add New Contact\n");
         printf("2. View All Contacts\n");
         printf("3. Update Contact\n");
